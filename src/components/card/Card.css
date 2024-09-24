@@ -1,0 +1,195 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19.3px;
+    padding: 16px;
+    margin-top: -160px;
+    margin-bottom: 50px;
+}
+
+.card {
+    border-radius: 8px;
+    width: 270px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.card h2 {
+    font-size: 18px;
+    padding: 5px 8px;
+}
+
+.card p {
+    padding: 5px 8px;
+    margin-bottom: 8px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.02);
+
+    }
+}
+
+.like-button__card {
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.like-button__card.liked {
+    color: orange;
+}
+
+.like-button {
+    transition: all 0.3s ease;
+}
+
+.navbar__buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.badge {
+    position: relative;
+}
+
+.card__info {
+    display: flex;
+    width: 98%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__genre {
+    width: 120%;
+    font-size: 16px;
+}
+
+.card__genre__wrapper {
+    display: flex;
+}
+
+.like-button__card {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 19.3px;
+        padding: 16px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card h2 {
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+
+    .card p {
+        padding: 5px 8px;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 19.3px;
+        padding: 16px;
+        margin-top: 100px;
+    }
+
+    .card-container {
+        padding-top: -100px;
+    }
+}
+
+@media screen and (max-width: 908px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 19.3px;
+        padding: 16px;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .card {
+        border-radius: 8px;
+        width: 260px;
+        position: relative;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 897px) {
+    .card-container {
+        margin-top: -180px;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+    .card {
+        border-radius: 8px;
+        width: 220px;
+        position: relative;
+        color: #fff;
+    }
+}
+
+
+@media screen and (max-width: 779px) {
+    .card {
+        border-radius: 8px;
+        width: 220px;
+        position: relative;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .card h2 {
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+
+    .card p {
+        padding: 5px 8px;
+        margin-bottom: 8px;
+        font-size: 13.2px;
+    }
+}
+
+
+@media screen and (max-width: 431px) {
+    .card {
+        border-radius: 8px;
+        width: 170px;
+        position: relative;
+        color: #fff;
+    }
+
+}
