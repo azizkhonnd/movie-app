@@ -116,3 +116,17 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 618px) {
+    .footer__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 618px) {
+    .footer__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

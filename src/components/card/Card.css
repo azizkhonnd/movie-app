@@ -175,6 +175,9 @@
 }
 
 
+
+
+
 @media screen and (max-width: 425px) {
     .card {
         border-radius: 8px;
@@ -205,10 +208,70 @@
     }
 }
 
-@media screen and (min-width: 390px) {
+@media screen and (max-width: 431px) {
+    .card {
+        border-radius: 8px;
+        width: 180px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .card {
+        border-radius: 8px;
+        width: 188px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 391px) {
     .card {
         border-radius: 8px;
         width: 170px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .card {
+        border-radius: 8px;
+        width: 300px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .card {
+        border-radius: 8px;
+        width: 300px;
         position: relative;
         justify-content: center;
         align-items: center;
