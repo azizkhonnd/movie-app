@@ -328,10 +328,25 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 430px) {
     .card {
         border-radius: 8px;
         width: 215px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 430px) {
+    .card {
+        border-radius: 8px;
+        width: 180px;
         position: relative;
         justify-content: center;
         align-items: center;
