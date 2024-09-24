@@ -205,10 +205,10 @@
     }
 }
 
-@media screen and (min-width: 429px) {
+@media screen and (min-width: 390px) {
     .card {
         border-radius: 8px;
-        width: 180px;
+        width: 170px;
         position: relative;
         justify-content: center;
         align-items: center;
