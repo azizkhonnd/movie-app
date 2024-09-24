@@ -184,10 +184,10 @@
 }
 
 
-@media screen and (max-width: 431px) {
+@media screen and (max-width: 430px) {
     .card {
         border-radius: 8px;
-        width: 170px;
+        width: 140px;
         position: relative;
         color: #fff;
     }
