@@ -343,10 +343,12 @@
     }
 }
 
-@media screen and (min-width: 400px) and (max-width: 430px) {
+
+
+@media screen and (min-width: 408px)  {
     .card {
         border-radius: 8px;
-        width: 180px;
+        width: 165px;
         position: relative;
         justify-content: center;
         align-items: center;
@@ -358,10 +360,61 @@
     }
 }
 
-@media screen and (min-width: 408px)  {
+@media screen and (min-width: 406px)  {
     .card {
         border-radius: 8px;
-        width: 165px;
+        width: 160px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 401px)  {
+    .card {
+        border-radius: 8px;
+        width: 160px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 390px)  {
+    .card {
+        border-radius: 8px;
+        width: 160px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 380px)  {
+    .card {
+        border-radius: 8px;
+        width: 160px;
         position: relative;
         justify-content: center;
         align-items: center;
