@@ -7,11 +7,11 @@ import { Spin, Alert } from 'antd';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
 import Card from '../../components/card/Card';
-import { useTranslation } from 'react-i18next'; 
+import { useTranslation } from 'react-i18next';
 import './SingleShowPage.css';
 
 const SingleShowPage = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const { id } = useParams();
   const dispatch = useDispatch();
   const { selectedShow, loading, error, shows } = useSelector((state) => state.tvShows);
