@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { fetchSingleShow, fetchTvShows } from '../../redux/slices/tvShowSlice';
-import { Spin, Alert } from 'antd';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
 import Card from '../../components/card/Card';
@@ -14,20 +13,14 @@ const SingleShowPage = () => {
   const { t } = useTranslation();
   const { id } = useParams();
   const dispatch = useDispatch();
-  const { selectedShow, loading, error, shows } = useSelector((state) => state.tvShows);
+  const { selectedShow, shows } = useSelector((state) => state.tvShows);
 
   useEffect(() => {
     dispatch(fetchSingleShow(id));
     dispatch(fetchTvShows());
   }, [dispatch, id]);
 
-  if (loading) {
-    return <Spin size="large" />;
-  }
 
-  if (error) {
-    return <Alert message="Error fetching data" type="error" />;
-  }
 
   if (!selectedShow) {
     return <p>No show details available.</p>;
