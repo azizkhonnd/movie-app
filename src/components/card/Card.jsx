@@ -67,7 +67,7 @@ const Card = ({ showIds, searchTerm = '' }) => {
               <div>
                 <h2>{show.name}</h2>
                 <div className='card__genre__wrapper'>
-                  <p><b>2024</b></p>
+                  <p className="year__movie"><b>2024</b></p>
                   <p className='card__genre'>{Array.isArray(show.genres) ? show.genres.join(', ') : t('genreUnavailable')}</p> {/* Translation for 'N/A' or unavailable genres */}
                 </div>
               </div>

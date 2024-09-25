@@ -8,7 +8,7 @@
 
 .card {
     border-radius: 8px;
-    width: 270px;
+    width: 320px;
     position: relative;
     color: #fff;
     cursor: pointer;
@@ -134,13 +134,7 @@
     }
 }
 
-@media screen and (max-width: 897px) {
-    .card-container {
-        margin-top: -180px;
-        margin-bottom: 40px;
-        justify-content: center;
-    }
-}
+
 
 
 @media screen and (max-width: 880px) {
@@ -175,24 +169,6 @@
 }
 
 
-
-
-
-@media screen and (max-width: 425px) {
-    .card {
-        border-radius: 8px;
-        width: 180px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 370px) {
     .card {
         border-radius: 8px;
@@ -223,20 +199,6 @@
     }
 }
 
-@media screen and (max-width: 430px) {
-    .card {
-        border-radius: 8px;
-        width: 160px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 391px) {
     .card {
@@ -253,20 +215,6 @@
     }
 }
 
-@media screen and (max-width: 393px) {
-    .card {
-        border-radius: 8px;
-        width: 300px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 376px) {
     .card {
@@ -345,7 +293,7 @@
 
 
 
-@media screen and (min-width: 408px)  {
+@media screen and (min-width: 408px) {
     .card {
         border-radius: 8px;
         width: 165px;
@@ -360,7 +308,9 @@
     }
 }
 
-@media screen and (min-width: 406px)  {
+
+
+@media screen and (min-width: 390px) {
     .card {
         border-radius: 8px;
         width: 160px;
@@ -377,51 +327,16 @@
 
 
 
-@media screen and (min-width: 401px)  {
+@media screen and (min-width: 374px) {
     .card {
         border-radius: 8px;
-        width: 160px;
+        width: 275.9px;
         position: relative;
         justify-content: center;
         align-items: center;
     }
 
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-
-
-@media screen and (min-width: 390px)  {
-    .card {
-        border-radius: 8px;
-        width: 160px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-
-
-@media screen and (min-width: 375px)  {
-    .card {
-        border-radius: 8px;
-        width: 154.9px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
+    .year__movie {
+        display: none;
     }
 }
