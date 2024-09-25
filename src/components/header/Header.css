@@ -1,5 +1,4 @@
 .header__container {
-    flex: 1;
-    display: flex;
+    min-height: 80px;
 }
 

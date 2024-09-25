@@ -58,10 +58,10 @@ const SingleShowPage = () => {
               {imdb && <li className='show__link-tvrage'><a className='show__link' href={`https://www.imdb.com/title/${imdb}`} target="_blank" rel="noopener noreferrer">IMDb</a></li>}
             </ul>
           </div>
-          <img
-            src={selectedShow.image?.original || 'https://via.placeholder.com/500x750'}
-            alt={selectedShow.name}
-          />
+            <img
+              src={selectedShow.image?.original || 'https://via.placeholder.com/500x750'}
+              alt={selectedShow.name}
+            />
         </div>
 
         <div className="recommended-shows">

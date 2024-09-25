@@ -2,13 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 19.3px;
-    margin-top: -160px;
+    margin-top: 120px;
     margin-bottom: 50px;
 }
 
 .card {
     border-radius: 8px;
-    width: 320px;
+    width: 275px;
     position: relative;
     color: #fff;
     cursor: pointer;
@@ -80,263 +80,25 @@
     right: 10px;
 }
 
-@media screen and (max-width: 1024px) {
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 19.3px;
-        margin-bottom: 50px;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .card h2 {
-        font-size: 16px;
-        padding: 5px 8px;
-    }
-
-    .card p {
-        padding: 5px 8px;
-        margin-bottom: 8px;
-        font-size: 14px;
+@media screen and (max-width: 600px) {
+    .card {
+        width: 253px;
     }
 
     .card-container {
         display: flex;
-        flex-wrap: wrap;
-        gap: 19.3px;
-        padding: 16px;
-        margin-top: 100px;
-    }
-
-    .card-container {
-        padding-top: -100px;
-    }
-}
-
-@media screen and (max-width: 908px) {
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 19.3px;
-        margin-top: -40px;
-        margin-bottom: 40px;
         justify-content: center;
     }
-
-    .card {
-        border-radius: 8px;
-        width: 260px;
-        position: relative;
-        color: #fff;
-        cursor: pointer;
-    }
 }
 
 
-
-
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 543px) {
     .card {
-        border-radius: 8px;
-        width: 220px;
-        position: relative;
-        color: #fff;
-    }
-}
-
-
-@media screen and (max-width: 779px) {
-    .card {
-        border-radius: 8px;
-        width: 220px;
-        position: relative;
-        color: #fff;
-        cursor: pointer;
-    }
-
-    .card h2 {
-        font-size: 15px;
-        padding: 5px 8px;
-    }
-
-    .card p {
-        padding: 5px 8px;
-        margin-bottom: 8px;
-        font-size: 13.2px;
-    }
-}
-
-
-@media screen and (max-width: 370px) {
-    .card {
-        border-radius: 8px;
-        width: 153px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
+        width: 222px;
     }
 
     .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 431px) {
-    .card {
-        border-radius: 8px;
-        width: 180px;
-        position: relative;
+        display: flex;
         justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 391px) {
-    .card {
-        border-radius: 8px;
-        width: 170px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 376px) {
-    .card {
-        border-radius: 8px;
-        width: 300px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 488px) {
-    .card {
-        border-radius: 8px;
-        width: 215px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .card {
-        border-radius: 8px;
-        width: 195px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 446px) {
-    .card {
-        border-radius: 8px;
-        width: 160px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .card {
-        border-radius: 8px;
-        width: 215px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-
-
-@media screen and (min-width: 408px) {
-    .card {
-        border-radius: 8px;
-        width: 165px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-
-
-@media screen and (min-width: 390px) {
-    .card {
-        border-radius: 8px;
-        width: 160px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .card-container {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-
-
-@media screen and (min-width: 374px) {
-    .card {
-        border-radius: 8px;
-        width: 275.9px;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .year__movie {
-        display: none;
     }
 }
