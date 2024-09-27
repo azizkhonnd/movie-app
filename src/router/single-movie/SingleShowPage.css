@@ -1,0 +1,362 @@
+.single-show-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 670px;
+    justify-content: space-between;
+}
+
+.single-show-container img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(36, 36, 36, 0.5);
+}
+
+.show-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.show-details h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #e50914;
+}
+
+.show-details p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #e5e5e5;
+}
+
+.show__description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+.show-links {
+    display: flex;
+    gap: 10px;
+}
+
+
+.show__link {
+    color: #fff;
+}
+
+.show__link-tvrage {
+    background-color: #e50914;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+}
+
+.genre-badge {
+    display: inline-block;
+    border: 1px solid #e50914;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.show__rating {
+    width: 8%;
+    display: inline-block;
+    border: 1px solid #16b254;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #16b254 !important;
+}
+
+.show__title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.show__runtime {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.show__icon {
+    display: flex;
+    align-items: center;
+}
+
+.recommended-shows__title {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.recommended-shows {
+    width: 103%;
+}
+
+@media (max-width: 1024px) {
+    .single-show-container {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .single-show-container img {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .show-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .show__title {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .show__rating {
+        width: auto;
+    }
+
+    .recommended-shows {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .single-show-container {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .single-show-container img {
+        width: 38%;
+    }
+
+    .show-details {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .single-show-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .single-show-container img {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .show-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .show__title {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .show__rating {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .show__runtime {
+        justify-content: center;
+    }
+
+    .recommended-shows {
+        width: 100%;
+    }
+}
+
+@media (max-width: 429px) {
+    .single-show-container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin: 80px auto;
+    }
+
+    .show-links {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 415px) {
+    .single-show-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .single-show-container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin: 80px auto;
+    }
+
+    .show-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .show__title {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .show__rating {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .show__runtime {
+        justify-content: center;
+    }
+
+    .recommended-shows {
+        width: 100%;
+    }
+
+    .show-links {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 391px) {
+    .single-show-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .single-show-container img {
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+        margin: 80px auto;
+    }
+
+    .show-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .show__title {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .show__rating {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .show__runtime {
+        justify-content: center;
+    }
+
+    .recommended-shows {
+        width: 100%;
+    }
+
+    .show-links {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .single-show-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .single-show-container img {
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+        margin: 80px auto;
+    }
+
+    .show-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .show__title {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .show__rating {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .show__runtime {
+        justify-content: center;
+    }
+
+    .recommended-shows {
+        width: 100%;
+    }
+
+    .show-links {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+
+}
